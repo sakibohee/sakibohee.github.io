@@ -2685,7 +2685,9 @@ h6 {
   font-family: "Roboto", sans-serif;
   max-width: 540px;
   color: #777777;
-  margin-bottom: 40px; }
+  margin-bottom: 40px; 
+  text-align: justify;
+}
 .personal_text .basic_info li {
   margin-bottom: 15px; }
   .personal_text .basic_info li a {
