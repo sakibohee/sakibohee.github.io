@@ -1,0 +1,127 @@
+{
+  "personal": {
+    "name": "Nazmus Sakib Ohee",
+    "title": "Senior Software Engineer & AI Specialist",
+    "company": "Edward Robertson Limited",
+    "description": "I'm a Senior Software Engineer with 9+ years of professional experience building scalable, high-performance web applications for clients across e-commerce, finance, healthcare, and education. Specialising in Laravel and PHP, I architect bespoke software that is secure, maintainable, and optimised for growth. My MSc in Artificial Intelligence (with Distinction, Teesside University) gives me a rare edge in bridging intelligent systems with enterprise software — from classical web platforms to ML-powered features. A published AI researcher, a multi-time national hackathon champion, and a Fiverr Level 2 seller trusted by clients worldwide, I bring both technical depth and a competitive drive to every engagement. Whether you need a robust web platform, a seamless API integration, or an AI-enhanced solution, I deliver software you'll be proud to call your own.",
+    "about": "Senior Software Engineer with 9+ years of experience and an MSc in Artificial Intelligence with Distinction. I specialise in building bespoke Laravel applications that are clean, scalable, and built to last — from solo freelance projects to enterprise-grade systems. A multiple national hackathon champion, a published researcher in real-time machine learning, and a Fiverr Level 2 seller with 500+ professional connections. I translate complex requirements into elegant, high-quality software and take pride in every line of code I ship.",
+    "location": "Darlington, United Kingdom",
+    "contact": {
+      "phone": "+447789223696",
+      "email": "sakibohee@gmail.com",
+      "skype": "sakibohee",
+      "fiverr": "https://www.fiverr.com/sakibohee"
+    },
+    "social": {
+      "facebook": "https://www.facebook.com/NazmusSakibOhee",
+      "linkedin": "https://linkedin.com/in/sakibohee",
+      "github": "https://github.com/nazmus-sakib-ohee"
+    },
+    "images": {
+      "profile": "img/ohee_gradu_banner.jpg",
+      "about": "img/ll.jpg"
+    }
+  },
+  "skills": [
+    {"name": "PHP", "percentage": 98},
+    {"name": "Laravel", "percentage": 98},
+    {"name": "MySQL", "percentage": 97},
+    {"name": "JavaScript", "percentage": 95},
+    {"name": "JQuery", "percentage": 94},
+    {"name": "HTML5", "percentage": 95},
+    {"name": "CSS3", "percentage": 90},
+    {"name": "REST APIs", "percentage": 94},
+    {"name": "Python", "percentage": 82},
+    {"name": "Machine Learning", "percentage": 78},
+    {"name": "Cloud Hosting", "percentage": 95},
+    {"name": "Git", "percentage": 92}
+  ],
+  "achievements": [
+    {"image": "img/ohee_gradu_banner.jpg", "description": "Graduated with MSc. in Artificial Intelligence with Distinction — Teesside University, United Kingdom."},
+    {"image": "img/siu_graduation.png", "description": "Graduated with BSc. in Computer Science & Engineering — with Distinction, Sylhet International University, Bangladesh."},
+    {"image": "img/citation.png", "description": "\"Real-Time Tiger Detection using YOLOv3\", International Journal of Computer Applications, 2020."},
+    {"image": "img/lu.jpg", "description": "Champion — National Hackathon at Leading University, Sylhet."},
+    {"image": "img/sust.jpg", "description": "Runner-up — National Digital Sylhet City Idea Hackathon."},
+    {"image": "img/siuictfest.jpg", "description": "Champion — SIU ICT FEST Hackathon 2019."},
+    {"image": "img/android.jpg", "description": "First Place — Android & Mobile Game Development, National ICT Competition."}
+  ],
+  "experience": [
+    {
+      "period": "January 2022 – Present",
+      "position": "Senior Software Engineer",
+      "company": "Edward Robertson Limited",
+      "location": "Darlington, England, United Kingdom · Full-time",
+      "description": "Developing bespoke software and websites for new and existing clients. Implementing new features upon request and resolving complex technical issues. Communicating directly with clients and third parties to deliver speedy, high-quality resolutions. Core stack: PHP, Laravel, AJAX, MySQL, and related technologies."
+    },
+    {
+      "period": "Sep 2022 – Dec 2022",
+      "position": "Advanced Practice — Artificial Intelligence",
+      "company": "Teesside University",
+      "location": "Middlesbrough, England, United Kingdom · Part-time",
+      "description": "Applied cutting-edge AI methodologies to solve complex real-world problems — spanning machine learning, deep learning, natural language processing, and computer vision. Developed intelligent systems and algorithms, analysed large datasets, built predictive models, and engineered automation pipelines to improve decision-making processes."
+    },
+    {
+      "period": "October 2021 – August 2022",
+      "position": "Course Representative — Artificial Intelligence",
+      "company": "Teesside University",
+      "location": "Middlesbrough, England, United Kingdom · Part-time",
+      "description": "Elected representative for the MSc Artificial Intelligence cohort. Served as the primary liaison between students and faculty, channelling feedback, raising concerns, and working collaboratively with academic staff to continuously improve the programme experience."
+    },
+    {
+      "period": "March 2019 – January 2022",
+      "position": "Professional Freelancer (Level 2 Seller)",
+      "company": "Fiverr International Ltd.",
+      "location": "Remote — Worldwide Clients · Full-time",
+      "description": "Developed custom web software solutions for clients across the globe, achieving Level 2 Seller status. Negotiated project scopes, translated client requirements into technical specifications, and delivered production-grade applications using PHP, Laravel, Mailchimp, Mailgun, and related tools."
+    },
+    {
+      "period": "November 2020 – March 2021",
+      "position": "Web Developer",
+      "company": "Vitalis Apps LLC",
+      "location": "Spain · Remote, Part-time",
+      "description": "Contributed to web application development for a US/Spain-based software company as a part-time remote developer. Worked with advanced PHP and MySQL to build and maintain client-facing features within a distributed engineering team."
+    },
+    {
+      "period": "January 2019 – February 2020",
+      "position": "Web Development Instructor",
+      "company": "Sylhet International University",
+      "location": "Sylhet, Bangladesh · Part-time",
+      "description": "Delivered weekly three-hour training sessions covering PHP and Laravel from fundamentals to advanced patterns. Introduced task-based learning methodologies for junior developers, fostering a collaborative environment and significantly improving student project output."
+    },
+    {
+      "period": "August 2018 – March 2019",
+      "position": "Lead Web Developer",
+      "company": "Nevadia Technology",
+      "location": "Zindabazar, Sylhet, Bangladesh",
+      "description": "Led web development efforts for a Sylhet-based technology firm. Performed complex source code development, directed the engineering workflow, and collaborated with cross-functional teams to deliver client projects on schedule using PHP, CSS3, and related technologies."
+    },
+    {
+      "period": "March 2018 – January 2019",
+      "position": "Programming Instructor",
+      "company": "Sylhet International University",
+      "location": "Sylhet, Bangladesh · Part-time",
+      "description": "Conducted weekly two-hour sessions on C programming fundamentals. Facilitated problem-solving games to sharpen students' analytical and algorithmic thinking. Mentored students in C, C++, and competitive programming — consistently achieving an attendance of 20+ students and receiving excellent evaluations from faculty and course participants."
+    }
+  ],
+  "education": [
+    {"period": "Sep 2021 – May 2023", "degree": "MSc. Artificial Intelligence — with Distinction", "institution": "Teesside University, United Kingdom"},
+    {"period": "Apr 2016 – Jun 2020", "degree": "BSc. in Computer Science & Engineering — with Distinction", "institution": "Sylhet International University, Bangladesh"},
+    {"period": "Apr 2013 – Mar 2015", "degree": "Higher Secondary Certificate (HSC) — UK Equivalent: A-Levels", "institution": "Board of Intermediate & Secondary Education, Bangladesh"},
+    {"period": "Jan 2012 – Mar 2013", "degree": "Secondary School Certificate (SSC) — UK Equivalent: GCSEs", "institution": "Board of Intermediate & Secondary Education, Bangladesh"}
+  ],
+  "services": [
+    {"icon": "fas fa-code", "title": "Bespoke Web Development", "description": "End-to-end custom web applications built on Laravel and PHP — architected for performance, security, and long-term scalability. From complex business logic and multi-role systems to API integrations and third-party services, I deliver polished software that fits your exact requirements."},
+    {"icon": "fas fa-brain", "title": "AI & Intelligent Solutions", "description": "Combining 9+ years of software engineering with an MSc in Artificial Intelligence (Distinction), I design and integrate machine learning models, intelligent automation, and data-driven features into web and enterprise applications — turning your data into a competitive advantage."},
+    {"icon": "fas fa-handshake", "title": "IT Consulting & Virtual Staff", "description": "Available as a dedicated virtual engineer or technical consultant. I help businesses fill their engineering gap with flexible, cost-effective expertise — whether that's a full project build, ongoing development support, or strategic technical guidance to steer your product roadmap."}
+  ],
+  "projects": [
+    {"logo": "img/logo-hr.png", "description": "Bioscope is a photography and videography company based in Michigan, USA — built with a custom Laravel backend and dynamic content management.", "link": "https://bioscope.us", "name": "BIOSCOPE.US"},
+    {"logo": "img/siu.png", "description": "Official web platform for Sylhet International University, Bangladesh — a feature-rich Laravel application serving thousands of students and faculty.", "link": "https://siu.edu.bd", "name": "SIU.EDU.BD"},
+    {"logo": "https://ateservices.co.uk/assets/images/ate_blue.png", "description": "ATE Services is a UK-based company that maintains and installs Heat Pumps, Air Conditioning, and Refrigeration Equipment — built with a custom business management system.", "link": "https://ateservices.co.uk/", "name": "ATESERVICES.CO.UK"}
+  ],
+
+  "footer": {
+    "about": "Problem solver. Builder. Researcher. I turn complex challenges into clean, elegant software — driven by a passion for quality, a competitive edge sharpened across national hackathons, and a commitment to continuous learning. Let's build something great together.",
+    "copyright": "Copyright &copy; 2026 All rights reserved &mdash; Nazmus Sakib Ohee"
+  }
+}

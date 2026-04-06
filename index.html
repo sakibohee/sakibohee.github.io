@@ -1,794 +1,419 @@
-
+<!DOCTYPE html>
 <html lang="en">
-    <head>
-        <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
-    <meta property="og:locale" content="en_US"/>
-    <meta property="og:type" content="website"/>
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="theme-color" content="#007bff">
-    <link rel="apple-touch-startup-image" href="https://sakibohee.github.io/img/ohee.jpg">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <meta property="og:title" content="Nazmus Sakib Ohee"/>
-    <meta property="og:image" content="https://sakibohee.github.io/img/personal.jpg"/>
-    <meta property="og:description" content="A seasoned professional with more than 4 years of experience, with extensive experience in developing customized solutions with complex functionality."/>
-    <meta property="og:url"  content="https://sakibohee.github.io/"/>
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" type="image/svg+xml" href="img/ohee_favicon.svg" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta property="og:locale" content="en_US" />
+  <meta property="og:type" content="website" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="theme-color" content="#0f172a" />
+  <meta property="og:title" content="Nazmus Sakib Ohee" />
+  <meta property="og:image" content="https://sakibohee.github.io/img/personal.jpg" />
+  <meta
+    property="og:description"
+    content="Software Engineer building scalable, user-focused digital products with modern web technologies."
+  />
+  <meta property="og:url" content="https://sakibohee.github.io/" />
+  <meta
+    name="keywords"
+    content="Nazmus Sakib Ohee, Sakib Ohee, software engineer, portfolio, full stack developer"
+  />
+  <link rel="icon" href="https://sakibohee.github.io/img/ohee.jpg" type="image/png" />
+  <title>Nazmus Sakib Ohee - Software Engineer Portfolio</title>
 
-    <meta name="keywords" content="Nazmus Sakib Ohee, Sakib Ohee, sakib ohee, sakib ohee fiverr"/>
-    
-    <link rel="icon" href="https://sakibohee.github.io/img/ohee.jpg" type="image/png">
-    <title>Nazmus Sakib Ohee</title>
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="vendors/linericon/style.css">
-    <link rel="stylesheet" href="css/font-awesome.min.css">
-    <link rel="stylesheet" href="vendors/owl-carousel/owl.carousel.min.css">
-    <link rel="stylesheet" href="vendors/lightbox/simpleLightbox.css">
-    <link rel="stylesheet" href="vendors/nice-select/css/nice-select.css">
-    <link rel="stylesheet" href="vendors/animate-css/animate.css">
-    <link rel="stylesheet" href="vendors/popup/magnific-popup.css">
-    <link rel="stylesheet" href="vendors/flaticon/flaticon.css">
-    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-    <!-- main css -->
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/responsive.css">
-        
-    <style type="text/css">
-                body {
-    scroll-behavior: smooth;
-}
-        .personal_text h3 {
-                font-size: 41px;
-            }
-        .img-cust1{
-            height: 707px; width: 545px;
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              50: '#f8fafc',
+              100: '#f1f5f9',
+              200: '#e2e8f0',
+              300: '#cbd5e1',
+              400: '#94a3b8',
+              500: '#64748b',
+              600: '#475569',
+              700: '#334155',
+              800: '#1e293b',
+              900: '#0f172a'
+            },
+            accent: {
+              500: '#0ea5e9',
+              600: '#0284c7',
+              700: '#0369a1'
+            },
+            gold: '#c6a86a'
+          },
+          boxShadow: {
+            soft: '0 10px 30px rgba(15, 23, 42, 0.08)',
+            card: '0 12px 40px rgba(15, 23, 42, 0.10)'
+          }
         }
-         .img-cust2{
-            height: 545px;   width: 545px;
-        }
-        
-@media (max-width: 576px) {
-     .img-cust1{
-            height: 100% !important; 
-            width: 100% !important; 
-        }
-         .img-cust2{
-            height: 100% !important;
-            width: 100% !important; 
-        }
-        .personal_text h3 {
-    font-size: 22px!important; 
-}
-}
+      }
+    };
+  </script>
 
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
 
-    </style>
-    </head>
+    body {
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      background: #f8fafc;
+      color: #0f172a;
+    }
 
-    <body>
-        
-        <!--================Header Menu Area =================-->
-        <header class="header_area">
-            <div class="main_menu">
-                <nav class="navbar navbar-expand-lg navbar-light">
-                    <div class="container box_1620">
-                        <!-- Brand and toggle get grouped for better mobile display -->
-                        <a class="navbar-brand logo_h" href="https://sakibohee.github.io"><h1 class="text-white">OHEE</h1></a>
-                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                        </button>
-                        <!-- Collect the nav links, forms, and other content for toggling -->
-                        <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
-                            <ul id="navmanu" class="nav navbar-nav menu_nav ml-auto">
-                                <li class="nav-item active"><a class="nav-link" href="https://sakibohee.github.io">Home</a></li> 
-                                <li class="nav-item"><a class="nav-link" href="#about">About</a></li> 
-                                <li class="nav-item"><a class="nav-link" href="#experiences">Experiences</a></li> 
-                                <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
-                                <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
-                                <li class="nav-item"><a class="nav-link" href="#testimonials">Testimonials</a></li>
-                            </ul>
-                        </div> 
-                    </div>
-                </nav>
-            </div>
-        </header>
-        <!--================Header Menu Area =================-->
-        
-        <!--================Home Banner Area =================-->
-        <section class="home_banner_area" id="top">
-            <div class="container box_1620">
-                <div class="banner_inner d-flex align-items-center">
-                    <div class="banner_content">
-                        <div class="media">
-                            <div class="d-flex">
-                                <img class="img-fluid img-cust1" src="img/ohee_gradu_banner.jpg" alt="Sakib Ohee">
-                            </div>
-                            <div class="media-body">
-                                <div class="personal_text">
-                                    <h6>Hey There, this is</h6>
-                                    <h3>Nazmus Sakib Ohee</h3>
-                                    <h5>Senior Software Engineer, Edward Robertson Limited</h5>
-                                    <p>As an accomplished Laravel based bespoke software developer with 7 years of experience, I possess a deep understanding of the software development lifecycle and have a proven ability to deliver high-quality custom software solutions to clients across a range of industries.
+    .section-title {
+      position: relative;
+      display: inline-block;
+    }
 
-With my extensive expertise in Laravel, I am able to design and develop bespoke software solutions that are scalable, secure, and optimized for performance. In addition to my technical skills, I have a strong understanding of business requirements and am able to collaborate with clients to identify their unique needs and translate them into software features and functionalities.
+    .section-title::after {
+      content: '';
+      position: absolute;
+      left: 0;
+      bottom: -12px;
+      width: 64px;
+      height: 4px;
+      border-radius: 999px;
+      background: linear-gradient(90deg, #0ea5e9, #c6a86a);
+    }
 
-My experience includes working with clients in diverse fields, such as e-commerce, finance, healthcare, and education. I am skilled in front-end technologies and have a demonstrated ability to integrate APIs and third-party services into custom applications, providing a seamless user experience.
+    .glass {
+      backdrop-filter: blur(10px);
+      background: rgba(255, 255, 255, 0.08);
+      border: 1px solid rgba(255, 255, 255, 0.12);
+    }
 
-As a dedicated developer, I am committed to delivering exceptional results, working tirelessly to ensure that my clients are satisfied with the final product. I take pride in my attention to detail and the quality of my work, and I am always seeking to learn and improve my skills. If you are seeking a talented and experienced bespoke software developer, I would be delighted to discuss how I can help you achieve your business objectives.</p>
-                                    <ul class="list basic_info">
-                                        <li><a href="https://www.fiverr.com/sakibohee"><i class="fa fa-fonticons"></i>fiverr.com/sakibohee</a></li>
-                                        <li><a href="skype:sakibohee?chat"><i class="fa fa-skype"></i>Skype: sakibohee</a></li>
-                                        <li><a href="tel:+447789223696"><i class="lnr lnr-phone-handset"></i>+447789223696</a></li>
-                                        <li><a href="mailto:sakibohee@gmail.com"><i class="lnr lnr-envelope"></i> sakibohee@gmail.com</a></li>
-                                        <li><a href="https://en.wikipedia.org/wiki/Middlesbrough"><i class="lnr lnr-home"></i>Middlesbrough, United Kingdom</a></li>
-                                    </ul>
-                                    <ul class="list personal_social">
-                                        <li><a href="https://www.facebook.com/NazmusSakibOhee"><i class="fa fa-facebook"></i></a></li>
-                                        <li><a href="https://linkedin.com/in/nazmus-sakib-ohee"><i class="fa fa-linkedin"></i></a></li>
-                                        <li><a href="https://github.com/nazmus-sakib-ohee"><i class=" fa fa-github"></i></a></li>
-                                        
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!--================End Home Banner Area =================-->
-        
-        <!--================Welcome Area =================-->
-        <section class="welcome_area p_120" style="padding-bottom:0px;" id="about">
-            <div class="container">
-                <div class="row welcome_inner">
-                    <div class="col-lg-6">
-                        <div class="welcome_text">
-                            <h4>About Myself</h4>
-                            <p>I am a problem solver with a passion for sharing whatever I learn. Currently working with Laravel Web Application Framework. Skilled in several Programming Languages: C, C++, Java, PHP, JavaScript. I have developed several Web app those are live and serving efficiently. My first priority is to deliver perfect software that the client's will be proud to call their own.</p>
-                            <div class="row">
-                                    <div class="media">
-                                        <div class="d-flex">
-                                            <img class="img-fluid img-cust2" src="img/ll.jpg" alt="">
-                                        </div>
-                                    </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="tools_expert">
-                            <div class="skill_main">
-                                <div class="skill_item">
-                                    <h4>HTML5 <span class="counter">95</span>%</h4>
-                                    <div class="progress_br">
-                                        <div class="progress">
-                                            <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="skill_item">
-                                    <h4>CSS3 <span class="counter">90</span>%</h4>
-                                    <div class="progress_br">
-                                        <div class="progress">
-                                            <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="skill_item">
-                                    <h4>JQUERY <span class="counter">95</span>%</h4>
-                                    <div class="progress_br">
-                                        <div class="progress">
-                                            <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="skill_item">
-                                    <h4>AJAX <span class="counter">92</span>%</h4>
-                                    <div class="progress_br">
-                                        <div class="progress">
-                                            <div class="progress-bar" role="progressbar" aria-valuenow="92" aria-valuemin="0" aria-valuemax="100"></div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="skill_item">
-                                    <h4>PHP <span class="counter">94</span>%</h4>
-                                    <div class="progress_br">
-                                        <div class="progress">
-                                            <div class="progress-bar" role="progressbar" aria-valuenow="94" aria-valuemin="0" aria-valuemax="100"></div>
-                                        </div>
-                                    </div>
-                                </div>
-                                 <div class="skill_item">
-                                    <h4>Laravel <span class="counter">98</span>%</h4>
-                                    <div class="progress_br">
-                                        <div class="progress">
-                                            <div class="progress-bar" role="progressbar" aria-valuenow="98" aria-valuemin="0" aria-valuemax="100"></div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="skill_item">
-                                    <h4>MYSQL <span class="counter">97</span>%</h4>
-                                    <div class="progress_br">
-                                        <div class="progress">
-                                            <div class="progress-bar" role="progressbar" aria-valuenow="97" aria-valuemin="0" aria-valuemax="100"></div>
-                                        </div>
-                                    </div>
-                                </div>
+    .nav-scrolled {
+      background: rgba(15, 23, 42, 0.92);
+      box-shadow: 0 8px 24px rgba(15, 23, 42, 0.18);
+    }
 
-                                  <div class="skill_item">
-                                    <h4>Android <span class="counter">75</span>%</h4>
-                                    <div class="progress_br">
-                                        <div class="progress">
-                                            <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-                                        </div>
-                                    </div>
-                                </div>
-                                 <div class="skill_item">
-                                    <h4>Web Hosting <span class="counter">95</span>%</h4>
-                                    <div class="progress_br">
-                                        <div class="progress">
-                                            <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
-                                        </div>
-                                    </div>
-                                </div>
-                                 <div class="skill_item">
-                                    <h4>Cloud Hosting <span class="counter">98</span>%</h4>
-                                    <div class="progress_br">
-                                        <div class="progress">
-                                            <div class="progress-bar" role="progressbar" aria-valuenow="98" aria-valuemin="0" aria-valuemax="100"></div>
-                                        </div>
-                                    </div>
-                                </div>
-                                 <div class="skill_item">
-                                    <h4>Git <span class="counter">92</span>%</h4>
-                                    <div class="progress_br">
-                                        <div class="progress">
-                                            <div class="progress-bar" role="progressbar" aria-valuenow="92" aria-valuemin="0" aria-valuemax="100"></div>
-                                        </div>
-                                    </div>
-                                </div>
-                                
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!--================End Welcome Area =================-->
-        
-        <br>
-        
-         <!--================Home Photos Area =================-->
-        <section class="home_gallery_area">
-       
-            <div class="container">
-                  <div class="testi_inner">
-                    <div class="testi_slider owl-carousel">
-                         <div class="item">
-                        <div class="testi_item">
-                            <img  height="236px" src="img/lu.jpg">
-                            <p>Champion!! (National) Hachathon at Leading University Sylhet.</p>
-                        </div> 
-                    </div>
-                        <div class="item">
-                            <div class="testi_item">
-                                <img height="236px"  src="img/sust.jpg">
-                                <p>Runners up at (National) Digital Sylhet City Idea Hackathon.</p>
-                        </div> 
-                        
-                    </div>
-                        <div class="item">
-                            <div class="testi_item">
-                                <img height="236px"  src="img/siuictfest.jpg">
-                                <p>Champion!! Hachathon at SIU ICT FEST 2019.</p>
-                        </div> 
-                        
-                    </div>
-                    <div class="item">
-                        <div class="testi_item">
-                            <img  height="236px"  src="img/android.jpg">
-                            <p> First Place at Android and Mobile Game development, ICT.</p>
-                        </div> 
-                    </div>
-                   
-                      <div class="item">
-                        <div class="testi_item">
-                            <img  height="236px"   src="img/learniing.jpg">
-                            <p>Project presentation at Learning And Earning Fest 2017.</p>
-                        </div> 
-                    </div>
-                     <div class="item">
-                        <div class="testi_item">
-                            <img  height="236px" src="img/siuict18.jpg">
-                            <p>Champion!! Hachathon at SIU ICT FEST 2018.</p>
-                        </div> 
-                    </div>
-                    
-                      <div class="item">
-                        <div class="testi_item">
-                            <img  height="236px"  src="img/itprofessional.jpg">
-                            <p>Participating at Sylhet IT Professional Conference 2019.</p>
-                        </div> 
-                    </div>
-                       <div class="item">
-                        <div class="testi_item">
-                            <img  height="236px"  src="img/clienttraining.jpg">
-                            <p>Client Training Session, Sylhet, Bangladesh.</p>
-                        </div> 
-                    </div>
-                </div>
+    #nav-logo {
+      height: 150px;
+      width: auto;
+      transition: height 0.3s ease;
+    }
+
+    .nav-scrolled #nav-logo {
+      height: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <nav id="navbar" class="fixed top-0 z-50 w-full transition-all duration-300">
+    <div class="mx-auto flex max-w-7xl items-center justify-between px-6 py-4 lg:px-8">
+      <a href="#hero"><img id="nav-logo" src="img/ohee.svg" alt="Ohee" /></a>
+
+      <div class="hidden items-center gap-8 md:flex">
+        <a class="text-sm font-medium text-slate-200 transition hover:text-white" href="#about">About</a>
+        <a class="text-sm font-medium text-slate-200 transition hover:text-white" href="#skills">Skills</a>
+        <a class="text-sm font-medium text-slate-200 transition hover:text-white" href="#experience">Experience</a>
+        <a class="text-sm font-medium text-slate-200 transition hover:text-white" href="#education">Education</a>
+        <a class="text-sm font-medium text-slate-200 transition hover:text-white" href="#services">Services</a>
+        <a class="text-sm font-medium text-slate-200 transition hover:text-white" href="#projects">Projects</a>
+        <a class="rounded-full bg-white px-5 py-2.5 text-sm font-semibold text-brand-900 transition hover:bg-slate-100" href="#contact">Contact</a>
+      </div>
+
+      <button id="menu-toggle" class="text-white md:hidden">
+        <i class="fas fa-bars text-xl"></i>
+      </button>
+    </div>
+
+    <div id="mobile-menu" class="hidden border-t border-white/10 bg-brand-900/95 px-6 py-4 md:hidden">
+      <div class="flex flex-col gap-4">
+        <a class="text-slate-200" href="#about">About</a>
+        <a class="text-slate-200" href="#skills">Skills</a>
+        <a class="text-slate-200" href="#experience">Experience</a>
+        <a class="text-slate-200" href="#education">Education</a>
+        <a class="text-slate-200" href="#services">Services</a>
+        <a class="text-slate-200" href="#projects">Projects</a>
+        <a class="text-slate-200" href="#contact">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <section id="hero" class="relative flex h-screen min-h-[600px] items-center overflow-hidden bg-brand-900 text-white">
+    <!-- YouTube video background -->
+    <div class="pointer-events-none absolute inset-0 overflow-hidden">
+      <iframe
+        src="https://www.youtube.com/embed/HXSQA0x4260?autoplay=1&mute=1&loop=1&playlist=HXSQA0x4260&controls=0&showinfo=0&rel=0&modestbranding=1&iv_load_policy=3&disablekb=1&enablejsapi=1"
+        allow="autoplay; encrypted-media"
+        allowfullscreen
+        class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2"
+        style="width: max(100vw, 177.78vh); height: max(56.25vw, 100vh); border: none;"
+      ></iframe>
+    </div>
+    <!-- Dark overlay -->
+    <div class="absolute inset-0 bg-brand-900/70 backdrop-blur-[1px]"></div>
+    <!-- Content -->
+    <div class="relative mx-auto w-full max-w-7xl px-6 lg:px-8">
+      <div class="max-w-2xl">
+        <span class="mb-5 mt-48 sm:mt-24 inline-flex w-fit items-center rounded-full border border-white/15 px-4 py-1.5 text-sm text-slate-200 glass">Software Engineer • Problem Solver • Product Builder</span>
+        <h1 id="hero-name" class="mb-4 text-4xl font-bold leading-tight sm:text-5xl lg:text-6xl"></h1>
+        <h2 id="hero-title" class="mb-6 text-xl font-medium text-sky-300 sm:text-2xl"></h2>
+        <p id="hero-description" class="text-base leading-8 text-slate-300 sm:text-lg"></p>
+        <div class="mt-8 flex flex-wrap gap-4">
+          <a href="https://wa.me/447789223696" target="_blank" rel="noopener noreferrer" class="rounded-full bg-white px-6 py-3 text-sm font-semibold text-brand-900 transition hover:bg-slate-100"><i class="fab fa-whatsapp mr-2 text-green-600"></i>Start a Conversation</a>
+          <a href="#projects" class="rounded-full border border-white/20 px-6 py-3 text-sm font-semibold text-white transition hover:bg-white/10">Explore Projects</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="py-24">
+    <div class="mx-auto grid max-w-7xl items-center gap-14 px-6 lg:grid-cols-2 lg:px-8">
+      <div>
+        <p class="mb-3 text-sm font-semibold uppercase tracking-[0.25em] text-accent-600">About</p>
+        <h2 class="section-title mb-10 text-3xl font-bold sm:text-4xl">A professional profile built around impact</h2>
+        <p id="about-text" class="text-base leading-8 text-slate-600 sm:text-lg"></p>
+      </div>
+      <div>
+        <img id="about-image" src="" alt="About" class="w-full rounded-[2rem] border border-slate-200 object-cover shadow-card" />
+      </div>
+    </div>
+  </section>
+
+  <section id="skills" class="bg-white py-24">
+    <div class="mx-auto max-w-7xl px-6 lg:px-8">
+      <div class="mb-14 text-center">
+        <p class="mb-3 text-sm font-semibold uppercase tracking-[0.25em] text-accent-600">Core strengths</p>
+        <h2 class="text-3xl font-bold sm:text-4xl">Skills & Expertise</h2>
+      </div>
+      <div class="grid grid-cols-1 gap-6 md:grid-cols-2" id="skills-container"></div>
+    </div>
+  </section>
+
+  <section id="achievements" class="py-24">
+    <div class="mx-auto max-w-7xl px-6 lg:px-8">
+      <div class="mb-14 text-center">
+        <p class="mb-3 text-sm font-semibold uppercase tracking-[0.25em] text-accent-600">Highlights</p>
+        <h2 class="text-3xl font-bold sm:text-4xl">Achievements</h2>
+      </div>
+      <div class="grid grid-cols-1 gap-8 md:grid-cols-2 xl:grid-cols-3" id="achievements-container"></div>
+    </div>
+  </section>
+
+  <section id="experience" class="bg-white py-24">
+    <div class="mx-auto max-w-7xl px-6 lg:px-8">
+      <div class="mb-14 text-center">
+        <p class="mb-3 text-sm font-semibold uppercase tracking-[0.25em] text-accent-600">Professional journey</p>
+        <h2 class="text-3xl font-bold sm:text-4xl">Experience</h2>
+      </div>
+      <div id="experience-list" class="space-y-5"></div>
+    </div>
+  </section>
+
+  <section id="education" class="py-24">
+    <div class="mx-auto max-w-7xl px-6 lg:px-8">
+      <div class="mb-14 text-center">
+        <p class="mb-3 text-sm font-semibold uppercase tracking-[0.25em] text-accent-600">Academic background</p>
+        <h2 class="text-3xl font-bold sm:text-4xl">Education</h2>
+      </div>
+      <div id="education-list" class="space-y-5 max-w-3xl mx-auto"></div>
+    </div>
+  </section>
+
+  <section id="services" class="py-24">
+    <div class="mx-auto max-w-7xl px-6 lg:px-8">
+      <div class="mb-14 text-center">
+        <p class="mb-3 text-sm font-semibold uppercase tracking-[0.25em] text-accent-600">What I offer</p>
+        <h2 class="text-3xl font-bold sm:text-4xl">Services</h2>
+      </div>
+      <div class="grid grid-cols-1 gap-8 md:grid-cols-2 xl:grid-cols-3" id="services-container"></div>
+    </div>
+  </section>
+
+  <section id="projects" class="bg-white py-24">
+    <div class="mx-auto max-w-7xl px-6 lg:px-8">
+      <div class="mb-14 text-center">
+        <p class="mb-3 text-sm font-semibold uppercase tracking-[0.25em] text-accent-600">Selected work</p>
+        <h2 class="text-3xl font-bold sm:text-4xl">Featured Projects</h2>
+      </div>
+      <div class="grid grid-cols-1 gap-8 md:grid-cols-2 xl:grid-cols-3" id="projects-container"></div>
+    </div>
+  </section>
+
+  <section id="contact" class="bg-brand-900 py-24 text-white">
+    <div class="mx-auto max-w-7xl px-6 lg:px-8">
+      <div class="mb-14 text-center">
+        <p class="mb-3 text-sm font-semibold uppercase tracking-[0.25em] text-sky-300">Let’s connect</p>
+        <h2 class="text-3xl font-bold sm:text-4xl">Get In Touch</h2>
+      </div>
+
+      <div class="grid gap-8 md:grid-cols-2">
+        <div class="rounded-[1.75rem] border border-white/10 bg-white/5 p-8 shadow-soft">
+          <h4 class="mb-6 text-xl font-semibold">Contact Information</h4>
+          <ul class="space-y-4 text-slate-200">
+            <li class="flex items-center gap-4"><span class="flex h-11 w-11 items-center justify-center rounded-full bg-white/10"><i class="fas fa-phone text-sky-300"></i></span><span id="contact-phone"></span></li>
+            <li class="flex items-center gap-4"><span class="flex h-11 w-11 items-center justify-center rounded-full bg-white/10"><i class="fas fa-envelope text-sky-300"></i></span><span id="contact-email"></span></li>
+            <li class="flex items-center gap-4"><span class="flex h-11 w-11 items-center justify-center rounded-full bg-white/10"><i class="fab fa-skype text-sky-300"></i></span><span id="contact-skype"></span></li>
+            <li class="flex items-center gap-4"><span class="flex h-11 w-11 items-center justify-center rounded-full bg-white/10"><i class="fas fa-map-marker-alt text-sky-300"></i></span><span id="contact-location"></span></li>
+          </ul>
+        </div>
+
+        <div class="rounded-[1.75rem] border border-white/10 bg-white/5 p-8 shadow-soft">
+          <h4 class="mb-6 text-xl font-semibold">Professional Profiles</h4>
+          <p class="mb-6 text-slate-300">Connect with me across platforms to explore my work, collaborations, and technical contributions.</p>
+          <div class="flex gap-4">
+            <a id="social-facebook" href="#" class="flex h-12 w-12 items-center justify-center rounded-full bg-white/10 text-xl text-white transition hover:bg-white hover:text-brand-900"><i class="fab fa-facebook-f"></i></a>
+            <a id="social-linkedin" href="#" class="flex h-12 w-12 items-center justify-center rounded-full bg-white/10 text-xl text-white transition hover:bg-white hover:text-brand-900"><i class="fab fa-linkedin-in"></i></a>
+            <a id="social-github" href="#" class="flex h-12 w-12 items-center justify-center rounded-full bg-white/10 text-xl text-white transition hover:bg-white hover:text-brand-900"><i class="fab fa-github"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="border-t border-white/10 bg-[#0b1220] py-10 text-slate-300">
+    <div class="mx-auto flex max-w-7xl flex-col justify-between gap-6 px-6 lg:flex-row lg:px-8">
+      <div class="max-w-2xl">
+        <h4 class="mb-3 text-lg font-semibold text-white">About</h4>
+        <p id="footer-about" class="leading-7"></p>
+      </div>
+      <div class="lg:text-right">
+        <p id="footer-copyright"></p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    $(document).ready(function () {
+      $.getJSON('data.json', function (data) {
+        $('#hero-name').text(data.personal.name);
+        $('#hero-title').text(data.personal.title + ' at ' + data.personal.company);
+        $('#hero-description').text(data.personal.description);
+        $('#hero-image').attr('src', data.personal.images.profile);
+
+        $('#about-text').text(data.personal.about);
+        $('#about-image').attr('src', data.personal.images.about);
+
+        data.skills.forEach(function (skill) {
+          $('#skills-container').append(`
+            <div class="rounded-[1.5rem] border border-slate-200 bg-slate-50 p-6 shadow-soft transition hover:-translate-y-1 hover:shadow-card">
+              <div class="mb-3 flex items-center justify-between">
+                <span class="text-base font-semibold text-brand-900">${skill.name}</span>
+                <span class="text-sm font-medium text-slate-500">${skill.percentage}%</span>
+              </div>
+              <div class="h-3 rounded-full bg-slate-200">
+                <div class="h-3 rounded-full bg-gradient-to-r from-accent-600 to-gold" style="width: ${skill.percentage}%"></div>
               </div>
             </div>
-        </section>
-        
-         <!--================End photos Area =================-->
-         
-         
-        <!--================My Tabs Area =================-->
-        <section class="mytabs_area p_120" id="experiences">
-            <div class="container">
-                <div class="tabs_inner">
-                    <ul class="nav nav-tabs" id="myTab" role="tablist">
-                        <li class="nav-item">
-                            <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">My Experiences</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">My Education</a>
-                        </li>
-                    </ul>
-                    <div class="tab-content" id="myTabContent">
-                        <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
-                            <ul class="list">
-                                <li>
-                                    <span></span>
-                                    <div class="media">
-                                        <div class="d-flex">
-                                            <p>January 2022 - Present</p>
-                                        </div>
-                                        <div class="media-body">
-                                            <h4>Edward Robertson Limited</h4>
-                                            <p>Web Developer, <br />Darlington, England, United Kingdom</p>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <span></span>
-                                    <div class="media">
-                                        <div class="d-flex">
-                                            <p>March 2019 to Present</p>
-                                        </div>
-                                        <div class="media-body">
-                                            <h4>Fiverr</h4>
-                                            <p>Freelancer, <br />Fiverr International Ltd.</p>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <span></span>
-                                    <div class="media">
-                                        <div class="d-flex">
-                                            <p>Aug 2018 to Mar 2019</p>
-                                        </div>
-                                        <div class="media-body">
-                                            <h4>Nevadia Technology</h4>
-                                            <p>Lead Software Developer, <br />Galleria shopping complex 5 th floor, Zindabazar, Sylhet, Bangladesh.</p>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li>
-                                <span></span>
-                                    <div class="media">
-                                        <div class="d-flex">
-                                            <p>Jan 2017 to Jun 2018 </p>
-                                        </div>
-                                        <div class="media-body">
-                                            <h4>Programming Trainer</h4>
-                                            <p>Programmers Den, <br />Sylhet International University, Bangladesh.</p>
-                                        </div>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
-                            <ul class="list">
-                                <li>
-                                    <span></span>
-                                    <div class="media">
-                                        <div class="d-flex">
-                                            <p>Sep 2021 to May 2023</p>
-                                        </div>
-                                        <div class="media-body">
-                                            <h4>Engineering</h4>
-                                            <p>MSc. in Artificial Intelligence ,<br />Teesside University, United Kingdom</p>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li>
-                                <li>
-                                    <span></span>
-                                    <div class="media">
-                                        <div class="d-flex">
-                                            <p>Apr 2016 to Jun 2020</p>
-                                        </div>
-                                        <div class="media-body">
-                                            <h4>Engineering</h4>
-                                            <p>Bsc. Engg. CSE ,<br />Sylhet International University, Bangladesh.</p>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <span></span>
-                                    <div class="media">
-                                        <div class="d-flex">
-                                            <p>Apr 2013 to Mar 2015</p>
-                                        </div>
-                                        <div class="media-body">
-                                            <h4>Higher Secondary Education</h4>
-                                            <p>Higher secondary school certificate, <br />Board of Intermediate and Secondary education bangladesh.</p>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li>
-                                <span></span>
-                                    <div class="media">
-                                        <div class="d-flex">
-                                            <p>Jan 2012 to Mar 2013</p>
-                                        </div>
-                                        <div class="media-body">
-                                            <h4>Secondary Education</h4>
-                                            <p>Secondary school certificate, <br />Board of Intermediate and Secondary education bangladesh.</p>
-                                        </div>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
+          `);
+        });
+
+        data.achievements.forEach(function (achievement) {
+          $('#achievements-container').append(`
+            <div class="overflow-hidden rounded-[1.75rem] border border-slate-200 bg-white shadow-soft transition hover:-translate-y-1 hover:shadow-card">
+              <img src="${achievement.image}" alt="Achievement" class="h-56 w-full object-cover" />
+              <div class="p-6">
+                <p class="leading-7 text-slate-600">${achievement.description}</p>
+              </div>
             </div>
-        </section>
-        <!--================End My Tabs Area =================-->
-        
-        <!--================Feature Area =================-->
-        <section class="feature_area p_120" id="services">
-            <div class="container">
-                <div class="main_title">
-                    <h2>offerings to my clients</h2>
-                    <p>I offer enterprise-grade software development for your business which assures true result-driven software services. Softwares that are developed by me are not only agile and responsive but also very flexible to meet the needs of your customers and achieve the target of your business.</p>
+          `);
+        });
+
+        data.experience.forEach(function (exp) {
+          $('#experience-list').append(`
+            <div class="rounded-[1.5rem] border border-slate-200 bg-slate-50 p-6 shadow-soft">
+              <div class="mb-2 flex items-start justify-between gap-4">
+                <div>
+                  <h5 class="text-lg font-semibold text-brand-900">${exp.position}</h5>
+                  <p class="font-medium text-accent-700">${exp.company}</p>
                 </div>
-                <div class="feature_inner row">
-                    <div class="col-lg-4 col-md-6">
-                        <div class="feature_item">
-                            <i class="fa fa-laptop"></i>
-                            <h4>Custom Software Development</h4>
-                            <p>I have a dedicated team of very excellent Software Developers, Engineers, QA, DevOps and management team. I also have a special team to build scalable Web Application.</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6">
-                        <div class="feature_item">
-                    <i class="fa fa-laptop"></i>
-                            <h4>IT Outsourcing Service</h4>
-                            <p>IT outsourcing services that offer greater cost saving, flexibility, reliability, scalability for your business. I can help you to fill your IT services gap. I will build custom Web, mobile, and cross-platform solutions that keep your business one step ahead of your competitors.</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6">
-                        <div class="feature_item">
-                            <i class="fa fa-laptop"></i>
-                            <h4>Virtual Employee</h4>
-                            <p>I am available as virtual employee too . Virtual Employee can reduce your monthly office cost and employee cost. It will scale up your business quickly with minimal price and give you a wider talent pool with flexible working hours to choose from.</p>
-                        </div>
-                    </div>
-                </div>
+                <span class="rounded-full bg-white px-3 py-1 text-xs font-semibold text-slate-500">${exp.period}</span>
+              </div>
+              <p class="mb-3 text-sm text-slate-500">${exp.location}</p>
+              ${exp.description ? `<p class="text-sm leading-6 text-slate-600">${exp.description}</p>` : ''}
             </div>
-        </section>
-        <!--================End Feature Area =================-->
-        
-        <!--================Home Gallery Area =================-->
-        <section class="home_gallery_area p_120" id="portfolio">
-            <div class="container">
-                <div class="main_title">
-                    <h2>My Latest Featured Projects</h2>
-                    <p>Below is a slide of my latest featured projects displayed for you to see how i can handle your project as well.</p>
+          `);
+        });
+
+        data.education.forEach(function (edu) {
+          $('#education-list').append(`
+            <div class="rounded-[1.5rem] border border-slate-200 bg-slate-50 p-6 shadow-soft">
+              <div class="mb-2 flex items-start justify-between gap-4">
+                <div>
+                  <h5 class="text-lg font-semibold text-brand-900">${edu.degree}</h5>
+                  <p class="font-medium text-emerald-700">${edu.institution}</p>
                 </div>
-                
+                <span class="rounded-full bg-white px-3 py-1 text-xs font-semibold text-slate-500">${edu.period}</span>
+              </div>
             </div>
-            <div class="container">
-                  <div class="testi_inner">
-                    <div class="testi_slider owl-carousel">
-                        <div class="item">
-                            <div class="testi_item">
-                                <img height="110px" src="img/logo-hr.png">
-                                <p>Bioscope is a photography and videography company based in Michigan.</p>
-                                <h4><a href="https://cutt.ly/0rxG0SX" class="text-dark">BIOSCOPE.US</a></h4>
-                            </div>
-                        </div> 
-                         <div class="item">
-                            <div class="testi_item">
-                                <img height="110px" src="img/siu.png">
-                                <p>Sylhet International University is a private university located at Bangladesh.</p>
-                                <h4><a href="https://cutt.ly/brxG2ui" class="text-dark">SIU.EDU.BD</a></h4>
-                            </div>
-                        </div> 
-                         <div class="item">
-                            <div class="testi_item">
-                                <img height="110px" src="https://northernfurniture.co.uk/images/logo.png">
-                                <p>Northern Furniture</p>
-                                <h4><a href="https://northernfurniture.co.uk/" class="text-dark">northernfurniture.co.uk</a></h4>
-                            </div>
-                        </div> 
+          `);
+        });
 
-                          <div class="item">
-                            <div class="testi_item">
-                                <img height="110px" src="img/mrslogo.png">
-                                <p>MRS Network is an Internet Service Provider at Sylhet, Bangladesh.</p>
-                                <h4><a href="https://cutt.ly/drxG9u9" class="text-dark">MRSNETWORK.COM</a></h4>
-                            </div>
-                        </div>
-
-                        
-                       
-                    </div>
-                </div>
-            
+        data.services.forEach(function (service) {
+          $('#services-container').append(`
+            <div class="rounded-[1.75rem] border border-slate-200 bg-white p-8 shadow-soft transition hover:-translate-y-1 hover:shadow-card">
+              <div class="mb-5 flex h-14 w-14 items-center justify-center rounded-2xl bg-sky-50 text-2xl text-accent-600">
+                <i class="${service.icon}"></i>
+              </div>
+              <h4 class="mb-3 text-xl font-semibold text-brand-900">${service.title}</h4>
+              <p class="leading-7 text-slate-600">${service.description}</p>
             </div>
-        </section>
-        <!--================End Home Gallery Area =================-->
-        
-        <!--================Testimonials Area =================-->
-        <section class="testimonials_area p_120" id="testimonials">
-            <div class="container">
-                <div class="main_title">
-                    <h2>Testimonials</h2>
-                    <p>Below is a slide of my latest reviews from fiverr displayed for you to see what others think about my work.</p>
-                </div>
-                <div class="testi_inner">
-                    <div class="testi_slider owl-carousel">
-                        <div class="item">
-                            <div class="testi_item">
-                                <p>One of the best gigs, I have worked with here. He took the time to understand the project and provided suggestions that added value. He is certainly a keeper. I plan to do more work with him.</p>
-                                <h4>Sona Ngoh</h4>
-                                <a href="#"><i class="fa fa-star"></i></a>
-                                <a href="#"><i class="fa fa-star"></i></a>
-                                <a href="#"><i class="fa fa-star"></i></a>
-                                <a href="#"><i class="fa fa-star"></i></a>
-                                <a href="#"><i class="fa fa-star"></i></a>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="testi_item">
-                                <p>Sakibohee is a great person to work with and is very helpful and i will definitely work with him for all my future mailgun services.</p>
-                                <h4>Marc Mckenzie</h4>
-                                <a href="#"><i class="fa fa-star"></i></a>
-                                <a href="#"><i class="fa fa-star"></i></a>
-                                <a href="#"><i class="fa fa-star"></i></a>
-                                <a href="#"><i class="fa fa-star"></i></a>
-                                <a href="#"><i class="fa fa-star"></i></a>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="testi_item">
-                                <p>Sakibohee is a Great Seller. We work before and I trust him to do the work. Very knowledgeable.</p>
-                                <h4>Fm Promotion</h4>
-                                <a href="#"><i class="fa fa-star"></i></a>
-                                <a href="#"><i class="fa fa-star"></i></a>
-                                <a href="#"><i class="fa fa-star"></i></a>
-                                <a href="#"><i class="fa fa-star"></i></a>
-                                <a href="#"><i class="fa fa-star"></i></a>
-                            </div>
-                        </div>
+          `);
+        });
 
-                        <div class="item">
-                            <div class="testi_item">
-                                <p>Great work, as we bring on new customers we'll call on you for our email templates. Thanks.</p>
-                                <h4>Kshafer14</h4>
-                                <a href="#"><i class="fa fa-star"></i></a>
-                                <a href="#"><i class="fa fa-star"></i></a>
-                                <a href="#"><i class="fa fa-star"></i></a>
-                                <a href="#"><i class="fa fa-star"></i></a>
-                                <a href="#"><i class="fa fa-star"></i></a>
-                            </div>
-                        </div>
-
-                        
-
-                        <div class="item">
-                            <div class="testi_item">
-                                <p>Always a good experience working with him. Very professional and always committed to bring the best off a project.</p>
-                                 <h4>Sona Ngoh</h4>
-                                <a href="#"><i class="fa fa-star"></i></a>
-                                <a href="#"><i class="fa fa-star"></i></a>
-                                <a href="#"><i class="fa fa-star"></i></a>
-                                <a href="#"><i class="fa fa-star"></i></a>
-                                <a href="#"><i class="fa fa-star"></i></a>
-                            </div>
-                        </div>
-                        
-                           <div class="item">
-                            <div class="testi_item">
-                                <p>Great Service.</p>
-                                <h4>Marc Mckenzie</h4>
-                                <a href="#"><i class="fa fa-star"></i></a>
-                                <a href="#"><i class="fa fa-star"></i></a>
-                                <a href="#"><i class="fa fa-star"></i></a>
-                                <a href="#"><i class="fa fa-star"></i></a>
-                                <a href="#"><i class="fa fa-star"></i></a>
-                            </div>
-                        </div>
-                        
-                        
-
-                         <div class="item">
-                            <div class="testi_item">
-                                <p>As always he is great working with. Dedicated and professional</p>
-                                <h4>Sona Ngoh</h4>
-                                <a href="#"><i class="fa fa-star"></i></a>
-                                <a href="#"><i class="fa fa-star"></i></a>
-                                <a href="#"><i class="fa fa-star"></i></a>
-                                <a href="#"><i class="fa fa-star"></i></a>
-                                <a href="#"><i class="fa fa-star"></i></a>
-                            </div>
-                        </div>
-
-                         <div class="item">
-                            <div class="testi_item">
-                                <p>Always a great experience working with him. Very professional and talented.</p>
-                               <h4>Sona Ngoh</h4>
-                                <a href="#"><i class="fa fa-star"></i></a>
-                                <a href="#"><i class="fa fa-star"></i></a>
-                                <a href="#"><i class="fa fa-star"></i></a>
-                                <a href="#"><i class="fa fa-star"></i></a>
-                                <a href="#"><i class="fa fa-star"></i></a>
-                            </div>
-                        </div>
-
-                              <div class="item">
-                            <div class="testi_item">
-                                <p>Thanks for completing another milestone with the usual profession touch. I appreciate the good job.</p>
-                                <h4>Sona Ngoh</h4>
-                                <a href="#"><i class="fa fa-star"></i></a>
-                                <a href="#"><i class="fa fa-star"></i></a>
-                                <a href="#"><i class="fa fa-star"></i></a>
-                                <a href="#"><i class="fa fa-star"></i></a>
-                                <a href="#"><i class="fa fa-star"></i></a>
-                            </div>
-                        </div>
-
-                          <div class="item">
-                            <div class="testi_item">
-                                <p>Incredible. Such a fantastic resource.</p>
-                                <h4>logansan</h4>
-                                <a href="#"><i class="fa fa-star"></i></a>
-                                <a href="#"><i class="fa fa-star"></i></a>
-                                <a href="#"><i class="fa fa-star"></i></a>
-                                <a href="#"><i class="fa fa-star"></i></a>
-                                <a href="#"><i class="fa fa-star"></i></a>
-                            </div>
-                        </div>
-
-                        
-                
-
-                        
-                    </div>
-                </div>
+        data.projects.forEach(function (project) {
+          $('#projects-container').append(`
+            <div class="rounded-[1.75rem] border border-slate-200 bg-slate-50 p-7 shadow-soft transition hover:-translate-y-1 hover:shadow-card">
+              <img src="${project.logo}" alt="${project.name}" class="mb-5 block rounded-xl object-contain object-left" style="width:auto;max-height:50px;" />
+              <h5 class="mb-3 text-xl font-semibold text-brand-900">${project.name}</h5>
+              <p class="mb-6 leading-7 text-slate-600">${project.description}</p>
+              <a href="${project.link}" target="_blank" class="inline-flex items-center gap-2 rounded-full bg-brand-900 px-5 py-2.5 text-sm font-semibold text-white transition hover:bg-brand-800">
+                View Project <i class="fas fa-arrow-right text-xs"></i>
+              </a>
             </div>
-        </section>
-        <!--================End Testimonials Area =================-->
-        
-        <!--================Footer Area =================-->
-        <footer class="footer_area p_120">
-            <div class="container">
-                <div class="row footer_inner">
-                    <div class="col-lg-5 col-sm-6">
-                        <aside class="f_widget ab_widget">
-                            <div class="f_title">
-                                <h3>About Me</h3>
-                            </div>
-                            <p>Genius and imaginative. Seeks creative alternatives when confronted with obstacles. Fosters a curiosity for innovative possibilities.
-                            
-                                I Initiate and execute creative ideas. Excels in developing strategic alternatives. Turns problems into opportunities. Demonstrates an ability to transfer vision into execution.</p>
-                            <p>
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved @ Nazmus Sakib Ohee <i class="fa fa-heart-o" aria-hidden="true"></i>
-</p>
-                        </aside>
-                    </div>
-                    <div class="col-lg-5 col-sm-6">
-            <!-- Put this code anywhere in the body of your page where you want the badge to show up. -->
+          `);
+        });
 
-<div itemscope itemtype='http://schema.org/Person' class='fiverr-seller-widget' style='display: inline-block;'>
-     <a itemprop='url' href=https://www.fiverr.com/sakibohee rel="nofollow" target="_blank" style='display: inline-block;'>
-        <div class='fiverr-seller-content' id='fiverr-seller-widget-content-20fc3469-1232-488f-86c2-34f6dbbfdc05' itemprop='contentURL' style='display: none;'></div>
-        <div id='fiverr-widget-seller-data' style='display: none;'>
-            <div itemprop='name' >sakibohee</div>
-            <div itemscope itemtype='http://schema.org/Organization'><span itemprop='name'>Fiverr</span></div>
-            <div itemprop='jobtitle'>Seller</div>
-            <div itemprop='description'>A seasoned professional with more than 4 years of experience, with extensive experience in developing customized solutions with complex functionality. Currently working on web solutions with Laravel Framework.
-</div>
-        </div>
-    </a>
-</div>
+        $('#contact-phone').text(data.personal.contact.phone);
+        $('#contact-email').text(data.personal.contact.email);
+        $('#contact-skype').text(data.personal.contact.skype);
+        $('#contact-location').text(data.personal.location);
+        $('#social-facebook').attr('href', data.personal.social.facebook);
+        $('#social-linkedin').attr('href', data.personal.social.linkedin);
+        $('#social-github').attr('href', data.personal.social.github);
+        $('#footer-about').text(data.footer.about);
+        $('#footer-copyright').html(data.footer.copyright);
+      });
 
-<script id='fiverr-seller-widget-script-20fc3469-1232-488f-86c2-34f6dbbfdc05' src='https://widgets.fiverr.com/api/v1/seller/sakibohee?widget_id=20fc3469-1232-488f-86c2-34f6dbbfdc05' data-config='{"category_name":"Programming \u0026 Tech"}' async='true' defer='true'></script>
+      $('#menu-toggle').click(function () {
+        $('#mobile-menu').toggleClass('hidden');
+      });
 
-                    </div>
-                    <div class="col-lg-2">
-                        <br>
-                        <aside class="f_widget social_widget">
-                            <div class="f_title">
-                                <h2>Follow Me</h2>
-                            </div>
-                            <h3>Let's Connect</h3>
+      $(window).on('scroll', function () {
+        if ($(window).scrollTop() > 24) {
+          $('#navbar').addClass('nav-scrolled');
+        } else {
+          $('#navbar').removeClass('nav-scrolled');
+        }
+      });
 
-
-                            <ul class="list">
-                                 <li><a href="https://www.facebook.com/NazmusSakibOhee"><i class="fa fa-facebook"></i></a>
-                                 </li>
-                                <li><a href="https://linkedin.com/in/nazmus-sakib-ohee"><i class="fa fa-linkedin"></i></a>
-                                </li>
-                                <li><a href="https://github.com/nazmus-sakib-ohee"><i class=" fa fa-github"></i></a>
-                                </li>
-                            </ul>
-                        </aside>
-                    </div>
-                </div>
-            </div>
-        </footer>
-        <!--================End Footer Area =================-->
-        
-        
-        
-        
-        
-        
-        <!-- Optional JavaScript -->
-        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-        <script src="js/jquery-3.3.1.min.js"></script>
-        <script src="js/popper.js"></script>
-        <script src="js/bootstrap.min.js"></script>
-        <script src="js/stellar.js"></script>
-        <script src="vendors/lightbox/simpleLightbox.min.js"></script>
-        <script src="vendors/nice-select/js/jquery.nice-select.min.js"></script>
-        <script src="vendors/isotope/imagesloaded.pkgd.min.js"></script>
-        <script src="vendors/isotope/isotope.pkgd.min.js"></script>
-        <script src="vendors/owl-carousel/owl.carousel.min.js"></script>
-        <script src="vendors/popup/jquery.magnific-popup.min.js"></script>
-        <script src="js/jquery.ajaxchimp.min.js"></script>
-        <script src="vendors/counter-up/jquery.waypoints.min.js"></script>
-        <script src="vendors/counter-up/jquery.counterup.min.js"></script>
-        <script src="js/mail-script.js"></script>
-        <script src="js/theme.js"></script>
-
-<script type="text/javascript">
-    
-    $(document).on('click', '#navmanu a[href^="#"]', function (e) {
-    e.preventDefault();
-    $('.navbar-toggler').click();
-    $('html, body').stop().animate({
-        scrollTop: $($(this).attr('href')).offset().top
-    }, 1000, 'linear');
-});
-</script>
-
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-150221671-2"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-150221671-2');
-</script>
-<script type="text/javascript">
-  window._mfq = window._mfq || [];
-  (function() {
-    var mf = document.createElement("script");
-    mf.type = "text/javascript"; mf.defer = true;
-    mf.src = "//cdn.mouseflow.com/projects/5c69616f-01fe-41a1-8721-67a0f28d527e.js";
-    document.getElementsByTagName("head")[0].appendChild(mf);
-  })();
-</script>
-
-    </body>
+      $('a[href^="#"]').on('click', function (event) {
+        const target = $($(this).attr('href'));
+        if (target.length) {
+          event.preventDefault();
+          $('html, body').animate(
+            {
+              scrollTop: target.offset().top - 84,
+            },
+            700
+          );
+          $('#mobile-menu').addClass('hidden');
+        }
+      });
+    });
+  </script>
+</body>
 </html>

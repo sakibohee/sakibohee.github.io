@@ -1,0 +1,25 @@
+<svg width="32" height="32" viewBox="28 30 200 200" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background -->
+  <rect x="28" y="30" width="200" height="200" rx="40" fill="#0284c7"/>
+
+  <!-- Dashed outer hex ring -->
+  <polygon points="128,42 206,85 206,175 128,218 50,175 50,85" fill="none" stroke="rgba(255,255,255,0.55)" stroke-width="3" stroke-dasharray="5 4"/>
+
+  <!-- Solid hex -->
+  <polygon points="128,52 196,91 196,169 128,208 60,169 60,91" fill="none" stroke="#ffffff" stroke-width="4"/>
+
+  <!-- Vertex node dots -->
+  <circle cx="128" cy="52"  r="5.5" fill="#ffffff"/>
+  <circle cx="196" cy="91"  r="5.5" fill="#ffffff"/>
+  <circle cx="196" cy="169" r="5.5" fill="#ffffff"/>
+  <circle cx="128" cy="208" r="5.5" fill="#ffffff"/>
+  <circle cx="60"  cy="169" r="5.5" fill="#ffffff"/>
+  <circle cx="60"  cy="91"  r="5.5" fill="#ffffff"/>
+
+  <!-- Code symbol: < / > -->
+  <polyline points="112,104 95,130 112,156"  fill="none" stroke="#ffffff" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="136" y1="101" x2="120" y2="159"  stroke="#ffffff" stroke-width="6" stroke-linecap="round"/>
+  <polyline points="144,104 161,130 144,156" fill="none" stroke="#ffffff" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+
+</svg>
